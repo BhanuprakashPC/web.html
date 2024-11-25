@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Portfolio - Bhanuprakash P C</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #ffd700;
+            /*transition: transform 0.3s ease;*/
+        }
+
+       /* header img:hover {
+            transform: scale(1.1);
+        }*/
+
+        header div {
+            text-align: left;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 10px 0;
+            color: #ffd700;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #b3b3b3; 
+        }
+
+        /* Section Styles */
+        .about, .skills, .projects, .education, .contact {
+            background: #1a1a1a; 
+            color: #f1f1f1; 
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
+
+        .about h2, .skills h2, .projects h2, .education h2, .contact h2 {
+            font-size: 28px;
+            color: #ffd700; 
+            border-bottom: 2px solid #ffd700;
+            padding-bottom: 10px;
+        }
+
+        .about p, .contact p {
+            line-height: 1.6;
+        }
+
+        /* Skills Section */
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            background: #ffd700; 
+            color: #000; 
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 16px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .skills li:hover {
+            background-color: #e6b800; 
+            transform: scale(1.1);
+        }
+
+        /* Projects Section */
+        .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .projects li {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #1a1a1a; 
+            border: 1px solid #ffd700; 
+            border-radius: 8px;
+           /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;*/
+        }
+
+       /* .projects li:hover {
+            transform: scale(1.05);
+        }*/
+
+        .projects h3 {
+            margin: 0 0 10px;
+            font-size: 20px;
+            color: #ffd700; 
+        }
+
+        .projects p {
+            margin: 0;
+            color: #b3b3b3; 
+        }
+
+        /* Education Section */
+        .education table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .education th, .education td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ffd700;
+        }
+
+        .education th {
+            background-color: #312f2f;
+            color: #ffd700;
+        }
+
+        .education td {
+            background-color: #1a1a1a;
+            color: #f1f1f1;
+        }
+
+        .education td a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        /* Contact Section */
+        .contact a {
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 20px;
+            transform: scale(1.1);
+        }
+
+        .contact a:hover {
+            color: #0c0c0c; 
+            transform: scale(1.1);
+            background-color: #e6b800;
+        }
+
+        pre {
+            background: #333; 
+            padding: 10px;
+            border-radius: 5px;
+            color: #f1f1f1;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Bhanuprakash P C</h1>
+                <p>Web Developer | Java Developer</p>
+            </div>
+            <img src="D:\Bhanuprakash\WT_P\Portfolio\photo.jpg">
+        </header>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>
+                To secure a challenging position in a reputed organisation in order to expand my learning, knowledge, skills
+                and gain expertise by working on industry related projects while making a significant contribution to the
+                success of the organisation as well as personal growth.
+            </p>
+        </section>
+    
+         <section class="education">
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institute</th>
+                        <th>University/Board</th>
+                        <th>Year of Passing</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MCA</td>
+                        <td>Dayananda Sagar Academy of Technology and Management</td>
+                        <td>Visvesvaraya Technological University</td>
+                        <td>Pursuing</td>
+                        <td>8.87 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>BCA</td>
+                        <td>S.R.N.M.N College</td>
+                        <td>Kuvempu University</td>
+                        <td>2023</td>
+                        <td>75.56%</td>
+                    </tr>
+                    <tr>
+                        <td>PUC</td>
+                        <td>Morarji Desai Res PU College</td>
+                        <td>Pre-University Board</td>
+                        <td>2020</td>
+                        <td>65.86%</td>
+                    </tr>
+                    <tr>
+                        <td>SSLC</td>
+                        <td>Morarji Desai Model Res School</td>
+                        <td>Karnataka Secondary Education Board</td>
+                        <td>2018</td>
+                        <td>79.36%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>TK Interface</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Drive Share Platform</h3>
+                    <p>
+                        A platform for automobile shops to manage customer information and car rental details.
+                        Developed using Java, Swings, and SQL.
+                        <pre>
+Description: Developed for automobile shops to handle customer information and car rental details.
+Roles: Worked on development and team management.
+Technologies: Java, Swings, SQL.
+                        </pre>
+                    </p>
+                </li>
+                <li>
+                    <h3>Music Recommendation System</h3>
+                    <p>
+                        A system that recommends music based on human emotions detected via facial expressions.
+                        Built using Python and TK Interface.
+                        <pre>
+Description: Captures facial expressions to recommend suitable music.
+Roles: Led the development team.
+Technologies: Python, TK Interface.
+                        </pre>
+                    </p>
+                </li>
+            </ul>
+        </section>
+       
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="bhanuprakashpc99@gmail.com">bhanuprakashpc99@gmail.com</a></p>
+            <p>Phone: +91 8660541288</p>
+            <p>
+                <a href="https://www.linkedin.com/in/bhanuprakash-pc-206588230" target="_blank">LinkedIn</a>
+                <a href="https://github.com/BhanuprakashPC" target="_blank">GitHub</a>
+            </p>
+        </section>
+    </div>
+</body>
+</html>
