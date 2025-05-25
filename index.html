@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>Bhanuprakash P C</title>
+    <title>Bhanuprakash P C</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -29,12 +29,7 @@
             height: 150px;
             border-radius: 50%;
             border: 5px solid #ffd700;
-            /*transition: transform 0.3s ease;*/
         }
-
-       /* header img:hover {
-            transform: scale(1.1);
-        }*/
 
         header div {
             text-align: left;
@@ -52,7 +47,7 @@
         }
 
         /* Section Styles */
-        .about, .skills, .projects, .education, .contact {
+        .about, .skills, .projects, .internship, .education, .contact {
             background: #1a1a1a; 
             color: #f1f1f1; 
             padding: 30px;
@@ -61,7 +56,7 @@
             box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
         }
 
-        .about h2, .skills h2, .projects h2, .education h2, .contact h2 {
+        .about h2, .skills h2, .projects h2, .internship h2, .education h2, .contact h2 {
             font-size: 28px;
             color: #ffd700; 
             border-bottom: 2px solid #ffd700;
@@ -96,34 +91,29 @@
         }
 
         /* Projects Section */
-        .projects ul {
+        .projects ul, .internship ul {
             list-style: none;
             padding: 0;
         }
 
-        .projects li {
+        .projects li, .internship li {
             margin-bottom: 20px;
             padding: 20px;
             background: #1a1a1a; 
             border: 1px solid #ffd700; 
             border-radius: 8px;
-           /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;*/
         }
 
-       /* .projects li:hover {
-            transform: scale(1.05);
-        }*/
-
-        .projects h3 {
+        .projects h3, .internship h3 {
             margin: 0 0 10px;
             font-size: 20px;
             color: #ffd700; 
         }
 
-        .projects p {
+        .projects p, .internship p {
             margin: 0;
             color: #b3b3b3; 
+            line-height: 1.6;
         }
 
         /* Education Section */
@@ -185,7 +175,7 @@
                 <h1>Bhanuprakash P C</h1>
                 <p>Web Developer | Java Developer</p>
             </div>
-            <img src="photo.jpg">
+            <img src="photo.jpg" alt="Bhanuprakash P C">
         </header>
 
         <section class="about">
@@ -197,7 +187,7 @@
             </p>
         </section>
     
-         <section class="education">
+        <section class="education">
             <h2>Education</h2>
             <table>
                 <thead>
@@ -283,7 +273,30 @@ Technologies: Python, TK Interface.
                 </li>
             </ul>
         </section>
-       
+
+        <section class="internship">
+            <h2>Internships</h2>
+            <ul>
+                <li>
+                    <h3>Data Science Intern – Vlinkin Professionals LLP</h3>
+                    <p><strong>Duration:</strong> 15th November 2024 – 27th December 2024</p>
+                    <p>
+                        Actively contributed to various Data Science projects, including <strong>"Human Detection and Alert Generation"</strong>.<br>
+                        Demonstrated technical proficiency and problem-solving skills, showcasing a commitment to professional growth.
+                    </p>
+                </li>
+                <li>
+                    <h3>Data Science Intern – Main Flow</h3>
+                    <p><strong>Duration:</strong> 15th November 2024 – 15th January 2025</p>
+                    <p>
+                        Developed a <strong>Heart Attack Prediction System</strong> using machine learning (Logistic Regression, Random Forest) to assess cardiovascular risk based on clinical parameters.<br>
+                        Built a <strong>House Rent Prediction Model</strong> leveraging regression algorithms to estimate rental prices using key features like location, area, and furnishing type.<br>
+                        Created an <strong>Iris Flower Classification Model</strong> using Scikit-learn and visualized decision boundaries with Matplotlib and Seaborn for educational clarity.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
         <section class="contact">
             <h2>Contact Information</h2>
             <p>Email: <a href="mailto:bhanuprakashpc99@gmail.com">bhanuprakashpc99@gmail.com</a></p>
